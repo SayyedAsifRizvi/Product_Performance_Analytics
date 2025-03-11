@@ -1,15 +1,46 @@
-# product-analytics-project
+# Product Performance Analytics
 
 Project Overview
-This project was initiated to gain a deeper understanding of how Key Performance Indicators (KPIs) work in the industry. The idea was to simulate a scenario similar to a real-world product like Canva and generate synthetic data using Python. The generated data consists of three main datasets:
 
-General Data: Contains information about user interactions such as user_id, event_name (e.g., project created, project downloaded), platform (mobile, web), country, date, new or returning customer indicator, and event_id.
+This project was designed to gain hands-on experience in Key Performance Indicators (KPIs) and their role in product analytics. By simulating a real-world scenario similar to Canva, we generated synthetic data using Python to replicate user interactions, subscription details, and time-based trends.
 
-Mapping Data: Maps dates to weeks and quarters for better time-based analysis.
+The project focuses on data generation, storage, analysis, and visualization using modern data tools and cloud infrastructure.
 
-Subscription Data: Provides details about subscription-related events such as subscription type (yearly, monthly), subscription price, discount, cancel reason, etc.
+Datasets
 
-After generating the data, it is stored in Amazon S3 buckets for easy access and scalability. For analyzing different KPIs, the data is connected to Amazon Redshift, a powerful data warehousing solution. For visualization purposes, Tableau is utilized to create insightful dashboards and reports.
+The project includes three primary datasets:
+
+User Interaction Data
+
+Tracks user activity such as project creation, project downloads, editor opens
+Captures metadata like platform (mobile/web), country, user type (new/returning)
+Contains unique identifiers (user_id, event_id, event_name, date)
+
+Date Mapping Data
+
+Maps dates to weeks and quarters for time-based trend analysis
+
+Subscription Data
+
+Logs subscription details including type (monthly/yearly), price, discounts, cancellation reasons
+
+Technology Stack
+
+Data Generation & Processing: Python
+
+Storage: Amazon S3 (for scalable data storage)
+
+Data Warehouse: Amazon Redshift (for analytical processing)
+
+Visualization: Tableau (https://public.tableau.com/app/profile/sayyed.asifb.rizvi/viz/Product_Analytics_v2024_2/Dashboard2)
+
+Key KPIs & Insights
+
+This project enables the analysis of crucial product metrics, including:
+
+✔️ User Engagement: Monthly Active Users (MAU), Weekly Active Users (WAU), Number of project creators, Number of exporters
+✔️ Feature Usage: Projects created, Editor opens, Projects exported
+✔️ Subscription Metrics: Gross Annual Recurring Revenue (ARR), Monthly/Yearly Cancel ARR
 
 Some of the key KPIs that can be derived from the generated data include:
 
@@ -23,6 +54,9 @@ Weekly Active Users (WAU),
 Gross Annual Recurring Revenue (ARR),
 Monthly and yearly Cancel ARR.
 
-https://public.tableau.com/app/profile/purva.badve3971/viz/Product_Analytics/Dashboard2?publish=yes
+Conclusion
+This project provides practical experience in product analytics, covering end-to-end workflows from data generation to visualization. It serves as a strong foundation for understanding KPI-driven decision-making in real-world product environments.
+
+
 
 This project serves as a practical exploration of KPIs commonly used in product analytics and provides hands-on experience in data generation, storage, analysis, and visualization using modern tools and technologies.
