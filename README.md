@@ -39,7 +39,9 @@ Key KPIs & Insights
 This project enables the analysis of crucial product metrics, including:
 
 ✔️ User Engagement: Monthly Active Users (MAU), Weekly Active Users (WAU), Number of project creators, Number of exporters
+
 ✔️ Feature Usage: Projects created, Editor opens, Projects exported
+
 ✔️ Subscription Metrics: Gross Annual Recurring Revenue (ARR), Monthly/Yearly Cancel ARR
 
 Some of the key KPIs that can be derived from the generated data include:
